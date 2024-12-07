@@ -1,0 +1,118 @@
+:root {
+    --bg-color: #254e58;
+    --snd-bg-color: #112d32;
+    --main-color: #263a3d;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--snd-bg-color);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: var(--bg-color);
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    background: var(--main-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 65px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color:#def2f1;
+    font-weight: 600;
+}
+
+h2 {
+    color: #3aafa9;
+    font-size: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    background: #def2f1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 643px;
+    font-size: 15px;
+}
+
+.form-group button {
+    background-color: #3aafa9;
+    color: #fff;
+    border: 1px solid #112d32;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.form-group button:hover {
+    background-color: #112d32;
+    transition: 0.3s;
+}
+
+#removeBeginning {
+    background-color: #3aafa9;
+    color: #fff;
+    border: 1px solid #112d32;
+    cursor: pointer;
+    width: 170px;
+    border-radius: 30px;
+    padding: 10px;
+    float: left;
+}
+
+.form-group #removeBeginning:hover {
+    background-color: #112d32;
+}
+
+#removeAtEnd {
+    background-color: #3aafa9;
+    color: #fff;
+    border: 1px solid #112d32;
+    cursor: pointer;
+    width: 170px;
+    border-radius: 30px;
+    padding: 10px;
+    float: right;
+}
+
+.form-group #removeAtEnd:hover {
+    background-color: #112d32;
+}
+
+pre {
+    background: #def2f1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 100px;
+    overflow-x: auto;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
